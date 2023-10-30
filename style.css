@@ -1,0 +1,102 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+#container {
+    width: 1000px;
+    height: 350px;
+    margin: 100px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px #ccc;
+    position: relative;
+}
+#logo {
+    text-align: center;
+}
+
+#search-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#lucky-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#links-container {
+    width: 370px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 230px;
+    background-color: #aeeeff;
+    padding: 10px;
+}
+
+#links {
+    text-align: center;
+}
+#links a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    color: blue;
+}
+
+#help-box {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 78%;
+    background-color: #aeeeff;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+}
+
+#helps {
+    text-align: center;
+}
+#helps a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    color: blue;
+}
+
+#iletişim-box {
+    width: 370px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 78%;
+    background-color: #aeeeff;
+    padding: 10px;
+    transform: translate(0, -50%);
+}
+
+#iletişim {
+    text-align: center;
+}
+#iletişim a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline !important;
+    color: blue;
+}
+
+h4 {
+    text-align: center;
+}
+
